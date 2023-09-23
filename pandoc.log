@@ -1,0 +1,1767 @@
+[INFO] Skipped '7em' at line 3 column 26
+[INFO] Skipped '15em' at line 3 column 36
+[INFO] Skipped '7em' at line 3 column 45
+[INFO] Skipped '7em' at line 3 column 26
+[INFO] Skipped '15em' at line 3 column 36
+[INFO] Skipped '7em' at line 3 column 45
+[INFO] Running filter pandoc-shortcaption
+[INFO] Completed filter pandoc-shortcaption in 2 ms
+[INFO] Running filter pandoc-xnos
+[INFO] Completed filter pandoc-xnos in 4 ms
+[INFO] Extracting /tmp/tex2pdf.-74c5a85d7377b6b8/ff6b11961883b44a9c900d6777f57f889636fce7.png...
+[INFO] Not rendering RawBlock (Format "html") "<!-- ---\ntitle: Towards Deep Learning Architectures for Software Models\nsubtitle: An Initial Exploration\nauthor:\n  - Luis Mata Aguilar\n  - Juan de Lara Jaramillo\n  - Esther Guerra\ndate: \\today\ntitlepage: false\n... -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- This page is for an official declaration. -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- This is the abstract -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- This is for acknowledging all of the people who helped out -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- Use the \\newpage command to force a new page -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- \nThe \\listoffigures will use short captions first, and the whole caption if none is present. To keep this list readable, ensure each figure has a short caption, e.g.\n![main_text_caption](source/figures/my_image.pdf \"short caption used in alt text and \\listoffigures\"){#fig:mylabel}{ width=50% }\n\nSee chapter 4 for more examples.\n-->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- To be modified (or not included) -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- Context -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- Objective -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- WHAT WE DID -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- EXAMPLE OF USAGE -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- REPRESENTATIONS -->"
+[INFO] Not rendering RawBlock (Format "html") "<!-- \nDo not edit this page.\n\nReferences are automatically generated from the BibTex file (References.bib)\n\n...which you should create using your reference manager.\n-->"
+[makePDF] temp dir:
+/tmp/tex2pdf.-74c5a85d7377b6b8
+[makePDF] Command line:
+xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/tex2pdf.-74c5a85d7377b6b8" "/tmp/tex2pdf.-74c5a85d7377b6b8/input.tex"
+
+[makePDF] Environment:
+("TEXINPUTS","/tmp/tex2pdf.-74c5a85d7377b6b8:")
+("TEXMFOUTPUT","/tmp/tex2pdf.-74c5a85d7377b6b8")
+("LESSOPEN","| /usr/bin/lesspipe %s")
+("CONDA_PROMPT_MODIFIER","(base) ")
+("USER","oekk")
+("GIT_ASKPASS","/home/oekk/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh")
+("SHLVL","1")
+("OLDPWD","/home/oekk/Git")
+("CONDA_SHLVL","1")
+("HOME","/home/oekk")
+("NVM_BIN","/home/oekk/.nvm/versions/node/v18.17.1/bin")
+("VSCODE_IPC_HOOK_CLI","/mnt/wslg/runtime-dir/vscode-ipc-e0a4cf0b-cace-4c3a-b513-5d74bf9629fa.sock")
+("TERM_PROGRAM_VERSION","1.82.2")
+("NVM_INC","/home/oekk/.nvm/versions/node/v18.17.1/include/node")
+("VSCODE_GIT_ASKPASS_MAIN","/home/oekk/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js")
+("VSCODE_GIT_ASKPASS_NODE","/home/oekk/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node")
+("MAKEFLAGS","")
+("COLORTERM","truecolor")
+("_CE_M","")
+("WSL_DISTRO_NAME","Ubuntu")
+("NVM_DIR","/home/oekk/.nvm")
+("MAKE_TERMERR","/dev/pts/7")
+("WAYLAND_DISPLAY","wayland-0")
+("LOGNAME","oekk")
+("PULSE_SERVER","unix:/mnt/wslg/PulseServer")
+("NAME","DESKTOP-1FM3S88")
+("WSL_INTEROP","/run/WSL/12_interop")
+("_","/usr/bin/make")
+("TERM","xterm-256color")
+("_CE_CONDA","")
+("PATH","/home/oekk/.nvm/versions/node/v18.17.1/bin:/home/oekk/miniconda3/bin:/home/oekk/miniconda3/condabin:/home/oekk/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts:/mnt/c/Python311:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Nitropc/anaconda3:/mnt/c/Users/Nitropc/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/Nitropc/anaconda3/Library/usr/bin:/mnt/c/Users/Nitropc/anaconda3/Library/bin:/mnt/c/Users/Nitropc/anaconda3/Scripts:/mnt/c/Users/Nitropc/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/Nitropc/AppData/Local/Programs/Python/Python39:/mnt/c/Users/Nitropc/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nitropc/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Nitropc/AppData/Roaming/npm")
+("XDG_RUNTIME_DIR","/mnt/wslg/runtime-dir")
+("MAKELEVEL","1")
+("DISPLAY",":0")
+("LANG","C.UTF-8")
+("VSCODE_GIT_IPC_HANDLE","/mnt/wslg/runtime-dir/vscode-git-58333ce887.sock")
+("TERM_PROGRAM","vscode")
+("LS_COLORS","rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:")
+("CONDA_PYTHON_EXE","/home/oekk/miniconda3/bin/python")
+("SHELL","/bin/bash")
+("MAKE_TERMOUT","/dev/pts/7")
+("LESSCLOSE","/usr/bin/lesspipe %s %s")
+("CONDA_DEFAULT_ENV","base")
+("VSCODE_GIT_ASKPASS_EXTRA_ARGS","")
+("PWD","/home/oekk/Git/thesis-template copy")
+("NVM_CD_FLAGS","")
+("CONDA_EXE","/home/oekk/miniconda3/bin/conda")
+("MFLAGS","")
+("CONDA_PREFIX","/home/oekk/miniconda3")
+("WSL2_GUI_APPS_ENABLED","1")
+("HOSTTYPE","x86_64")
+("WSLENV","VSCODE_WSL_EXT_LOCATION/up")
+
+[makePDF] Source:
+\documentclass[12pt,es-ES,a4paper,]{report}
+
+\usepackage{lmodern}
+
+% Overwrite \begin{figure}[htbp] with \begin{figure}[H]
+\usepackage{float}
+\let\origfigure=\figure
+\let\endorigfigure=\endfigure
+\renewenvironment{figure}[1][]{%
+\origfigure[h]
+}{%
+\endorigfigure
+}
+
+% fix for pandoc 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% TP: hack to truncate list of figures/tables.
+\usepackage{truncate}
+\usepackage{caption}
+\usepackage{tocloft}
+% TP: end hack
+
+% to increase padding after image caption
+
+\captionsetup{belowskip=10pt}
+
+%to include algorithms
+\usepackage{algorithm2e}
+\usepackage{algpseudocode}
+\usepackage{verbatimbox}
+
+%proofs
+\usepackage{bussproofs}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{braket}
+\usepackage{cases}
+
+%\usepackage{setspace}
+%\setstretch{0.5}
+
+\usepackage{amssymb,amsmath,amsfonts}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{natbib}
+\bibliographystyle{unsrt}
+\bibliographystyle{plainnat}
+
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Luis Mata Aguilar},
+            pdftitle={This title},
+            colorlinks=false,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{1em}  % prevent overfull lines
+\setcounter{secnumdepth}{5}
+\ifxetex
+  \usepackage{polyglossia}
+  \setmainlanguage{spanish}
+\else
+  \usepackage[es-ES]{babel}
+\fi
+
+
+\date{\today}
+% Table of contents formatting
+\renewcommand{\contentsname}{Table of Contents}
+\setcounter{tocdepth}{4}
+
+% Headers and page numbering
+\usepackage{fancyhdr}
+\pagestyle{plain}
+
+% Following package is used to add background image to front page
+\usepackage{wallpaper}
+
+% Table package
+\usepackage{ctable}% http://ctan.org/pkg/ctable
+
+% Deal with 'LaTeX Error: Too many unprocessed floats.'
+\usepackage{morefloats}
+% or use \extrafloats{100}
+% add some \clearpage
+
+% % Chapter header
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+ \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+% % Fonts and typesetting
+\usepackage{fontspec}
+\usepackage{libertine}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setmainfont[Scale=1.1]{Libertinus Serif}
+\setsansfont[Scale=1.1]{Libertinus Sans}
+\setmonofont[Scale=0.9]{Libertinus Mono}
+\setmathfont[Scale=1.1]{Libertinus Math}
+% \setromanfont[Scale=1.01,Ligatures={Common},Numbers={OldStyle}]{Palatino}
+% \setromanfont[Scale=1.01,Ligatures={Common},Numbers={OldStyle}]{Adobe Caslon Pro}
+%Following line controls size of code chunks
+% \setmonofont[Scale=0.9]{Monaco}
+%Following line controls size of figure legends
+% \setsansfont[Scale=1.2]{Optima Regular}
+
+% CODE BLOCKS
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{longtable}
+
+% JAVA CODE BLOCKS
+\definecolor{backcolour}{RGB}{255,255,255}
+\definecolor{javapurple}{RGB}{143,	188,	187}
+\definecolor{javagreen}{RGB}{94, 129, 172}
+\definecolor{javared}{RGB}{94, 129, 172}
+\definecolor{javadocblue}{rgb}{0.25,0.35,0.75}
+
+\lstdefinestyle{pythonCodeStyle}{
+  float=h,
+  floatplacement=tbp,
+  language=python,                         % the language of the code
+  backgroundcolor=\color{backcolour},    % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\fontsize{7}{7},
+  breakatwhitespace=true,
+  breaklines=true,
+  %breakindent=.5\textwidth,
+  keywordstyle=\color{javapurple},
+  stringstyle=\color{javared},
+  commentstyle=\color{javagreen},
+  %morecomment=[s][\color{javadocblue}]{/**}{*/},
+  captionpos=t,                          % sets the caption-position to bottom
+  frame=single,                          % adds a frame around the code
+  numbers=left,
+  numbersep=7pt,                         % margin between number and code block
+  keepspaces=true,                       % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  columns=fullflexible,
+  showspaces=false,                      % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,                % underline spaces within strings only
+  showtabs=false,                        % show tabs within strings adding particular underscores
+  tabsize=1                              % sets default tabsize to 2 spaces
+}
+%breakindent=.5\textwidth,frame=single,breaklines=true%
+%Attempt to set math size
+%First size must match the text size in the document or command will not work
+%\DeclareMathSizes{display size}{text size}{script size}{scriptscript size}.
+%\DeclareMathSizes{12}{13}{7}{7}
+
+% ---- CUSTOM AMPERSAND
+% \newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
+
+% HEADINGS
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\scshape\large}
+\subsubsectionfont{\rmfamily\bfseries\upshape\large}
+% \sectionfont{\rmfamily\mdseries\Large}
+% \subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+% \subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+% Set figure legends and captions to be smaller sized sans serif font
+\usepackage[font={footnotesize}]{caption}
+
+\usepackage{siunitx}
+
+% Adjust spacing between lines to 1.5
+\usepackage{setspace}
+%\onehalfspacing
+% \doublespacing
+\raggedbottom
+
+% Set margins
+\usepackage[top=1.5in,bottom=1.5in,left=1.5in,right=1.4in]{geometry}
+\setlength\parindent{0.5in} % indent at start of paragraphs (set to 0.3?)
+\setlength{\parskip}{9pt}
+\usepackage{indentfirst}
+
+% Add space between pararaphs
+% http://texblog.org/2012/11/07/correctly-typesetting-paragraphs-in-latex/
+% \usepackage{parskip}
+% \setlength{\parskip}{\baselineskip}
+
+% Set colour of links to black so that they don't show up when printed
+\usepackage{hyperref}
+%\hypersetup{colorlinks=false, linkcolor=black}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{makecell}
+\newcolumntype{x}[1]{%
+>{\centering\arraybackslash}m{#1}}%
+\usepackage{bookmark} % lets try this for weird tables
+\usepackage{multirow} % cool tables and stuff of multiple rows.
+
+% Allow for long captions and float captions on opposite page of figures
+% \usepackage[rightFloats, CaptionBefore]{fltpage}
+
+% Don't let floats cross subsections
+% \usepackage[section,subsection]{extraplaceins}
+
+% Rotate images and tables
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{wrapfig}
+\usepackage[export]{adjustbox}[2011/08/13]
+\usepackage{floatpag}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+
+        \huge
+        % title
+        Diseño de un Velero \\
+        %Towards Deep Learning Architectures for Software Models\\
+        \Large Análisis hidrodinámico
+
+        \vspace{1.5cm}
+        
+        \large
+        Carlos Yves Tizón Martínez\\ \normalsize \href{mailto:luis.mata@uam.es}{luis.mata@uam.es}
+
+        \vspace{1.5cm}
+
+        \normalsize
+        Una tesis presentada para el Grado de Maestría en\\
+        Tu grado fav
+        
+        \vspace{2cm}
+        
+        \normalsize
+        Supervised by:\\
+        \vspace{0.5cm}
+        Supervisor 1\\ \href{mailto:juan.delara@uam.es}{juan.delara@uam.es}
+        
+        Supervisor 2\\ \href{mailto:esther.guerra@uam.es}{esther.guerra@uam.es}
+
+
+        \vspace{1.8cm}
+        \includegraphics[width=0.4\textwidth]{style/logo_upm.pdf}
+        %\includegraphics[width=0.4\textwidth]{style/logo_ucm.png}
+        \normalsize
+        
+        Universidad \{\href{https://www.uam.es/uam/inicio}{Autónoma}, \href{https://ucm.es/english}{Complutense}, \href{https://www.upm.es/internacional}{Politécnica}\}  de Madrid,\\
+        Madrid, Spain \\
+        \today \\
+
+    \end{center}
+\end{titlepage}
+
+\vspace*{\fill}
+
+\noindent \textit{
+I, Luis Mata Aguilar confirm that the work presented in this thesis is my own. Where information has been derived from other sources, I confirm that this has been indicated in the thesis.
+} \vspace*{\fill} \pagenumbering{gobble} \newpage
+
+\hypertarget{abstract}{%
+\chapter*{Abstract}\label{abstract}}
+\addcontentsline{toc}{chapter}{Abstract}
+
+Inglés
+
+\hypertarget{resumen}{%
+\chapter*{Resumen}\label{resumen}}
+\addcontentsline{toc}{chapter}{Resumen}
+
+Español
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\hypertarget{agradecimientos}{%
+\chapter*{Agradecimientos}\label{agradecimientos}}
+\addcontentsline{toc}{chapter}{Agradecimientos}
+
+This work has been funded by the Spanish Ministry of Science
+(RTI2018-095255-B-I00), and by the R\&D programme of Madrid
+(P2018/TCS-4314).
+
+Thanks to all the people who helped out:
+
+\newpage
+
+\pagenumbering{gobble}
+
+\tableofcontents
+
+\newpage
+\listoffigures
+
+\newpage
+
+\listoftables
+
+\newpage
+
+\hypertarget{abreviaciones}{%
+\chapter*{Abreviaciones}\label{abreviaciones}}
+\addcontentsline{toc}{chapter}{Abreviaciones}
+
+\begin{tabbing}
+\textbf{ABC}~~~~~~~~~~~~ \= \textbf{A}qui \textbf{B}oca \textbf{C}aña \\  
+
+\end{tabbing}
+
+\newpage
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\setlength{\parindent}{0.5in}
+
+\hypertarget{introducciuxf3n}{%
+\chapter{Introducción}\label{introducciuxf3n}}
+
+This section is meant to introduce the background and objective of the
+research conducted for this thesis. The purpose of the first section of
+this chapter is to provide a concise summary of the study issue.
+Following the background are the objectives of the research. The
+contributions of this thesis are covered in the next section. Finally,
+here is a quick outline of the chapters of this thesis.
+
+\hypertarget{contexto}{%
+\section{Contexto}\label{contexto}}
+
+Model Driven Engineering (MDE) speeds up the process of making
+high-quality software and keeps people from having to write the same
+solutions over and over \citep{mde_in_practice}. It is a useful
+technique for software development since models facilitate the
+communication between requirements and implementation phases of the
+software lifecycle. Simultaneously conveying a more complete picture,
+models may also be used to reach agreement on a certain point of view or
+idea.
+
+Model Driven Engineering and Machine Learning (ML-MDE) refers to the
+application of ML (Machine Learning) techniques to MDE issues. As stated
+previously, the model (or meta-model)\footnote{When we denote
+  \emph{(meta-)model} we are not referring to just meta-models but
+  possibly to any model that can be used to describe a system. On the
+  contrary, with \emph{meta-model} we want to denote only meta-models.
+  This is because we intend to expand this work to support virtually any
+  kind of model, not just those that are used as proof of concept. The
+  term is used broadly to maintain consistency with the rest of the
+  literature.} is the primary artifact in MDE, and can be represented as
+a graph. In order to apply ML techniques, it must be transformed into a
+lower level representation, such as text.
+
+\hypertarget{objetivos}{%
+\section{Objetivos}\label{objetivos}}
+
+We demonstrate the use of RoBERTa\citep{liu2019roberta}, a
+transformer-based architecture to support the construction of models by
+means of a recommender system able to predict a masked element of choice
+in a textual representation of the (meta-)model.
+
+\hypertarget{contribuciones}{%
+\section{Contribuciones}\label{contribuciones}}
+
+This dissertation has produced the publication of a short work titled
+“Towards a Deep Learning Architecture for Software Models”
+\citep{towards_dl_archs}, in which the beginning steps of this
+investigation are explored.
+
+\hypertarget{marco-teuxf3rico}{%
+\chapter{Marco Teórico}\label{marco-teuxf3rico}}
+
+This section is intended to be a starting point for the reader, so that
+she can understand the fundamental ideas and the underlying concepts of
+the work presented in this thesis. It is separated in three sections,
+each one with a different purpose. First, we describe broadly MDE and
+its role in the development of software. Second, we describe the use of
+NLP and language models (LM) to extract usable text embeddings out of
+software models. Third, we describe the transformer architecture, a deep
+learning model state of the art in language modelling, able to extract
+usable embeddings from text corpora.
+
+\hypertarget{model-driven-engineering}{%
+\section{Model Driven Engineering}\label{model-driven-engineering}}
+
+\hypertarget{language-models}{%
+\subsection{Language Models}\label{language-models}}
+
+Models that assign probabilities to sequences of words are called
+language models or LMs. Given a sequence of tokens, they are usually
+trained to compute the probability of the sequence given its history,
+i.e.~the next word in a sequence of words
+\citep{language_models_sentences}. They attempt to model understanding
+of a domain language in a corpus of text, and sometimes they can act as
+a knowledge base. LMs enable applications such as text summarization,
+text classification, and information retrieval among many others.
+
+Language modeling is usually framed as unsupervised probability
+distribution over each token within a sequence, conditioned on the
+sequence of tokens observed so far. We denote the random variable
+representing the next token as \(x_t\) and the sequence of the tokens
+observed as \(x_c\), i.e.~language models compute \(p(x_t|x_c)\).
+
+For instance, in the unigram model, each word (token) \(w_i\) is treated
+independently of each other and the probability of a sentence
+\(w_1, w_2, ..., w_n\), is computed as the product of the probabilities
+of each word (see Equation \ref{unigram}).
+
+\begin{equation}\label{unigram}
+p(w_1, w_2, ..., w_n) = \prod_{i=1}^{n} p(w_i)
+\end{equation}
+
+Similarly the bigram model treats a sentence as pairs \((w_1, w_2)\),
+\((w_2, w_3)\), \ldots, \((w_{n-1}, w_n)\). In such a way that the
+probability of a token is approximated as the probability of the token
+itself conditioned to its immediate predecessor. As in the unigram
+model, the probability of a sentence \(w_1, w_2, ..., w_n\) is computed
+as the product of the probabilities of each token (see Equation
+\ref{bigram}).
+
+\begin{equation}\label{bigram}
+p(w_1, w_2, ..., w_n) = \prod_{i=1}^{n} p(w_i| w_{i-1})
+\end{equation}
+
+Generally we refer to the n-gram model, for a sequence of n words, where
+the probability of the sequence \(p(w_1, w_2, ..., w_n)\) is
+approximated as the following.
+
+\begin{align}
+p(w_1, w_2, ..., w_n) &= p(w_1)p(w_2|w_1)p(w_3|w_{1:2}) ... p(w_n|w_{1:n-1})  \nonumber \\
+ &= \prod_{i=1}^{n} p(w_i| w_{1:i-1})
+\end{align}
+
+For example for the sentence “A bank of fishes approaches”:
+\begin{equation}  
+  \begin{aligned}
+p(\text{``A bank of fishes approaches."}) = p(\text{``A"})\times&\\
+p(\text{``bank"}|\text{``A"}) \times p(\text{``of"}|\text{``A bank"}) \times&\\
+p(\text{``fishes"}|\text{``A bank of"}) \times &\\
+p(\text{``approaches"}|\text{``A bank of fishes"})
+  \end{aligned}
+\end{equation}
+
+If we were to produce the simplest embedding (sparse vector) for a text
+application, that would be the one-hot vector. To represent every word
+as an \(\mathbb{R}^{|V| \times 1}\) vector with all 0s and one 1 at the
+index of that word in the sorted language vocabulary. In this notation,
+\(|V|\) is the size of our vocabulary. Word vectors in this type of
+encoding would appear as the following:
+
+\begin{equation*}
+w^{aardvark} =
+\begin{bmatrix}
+  1\\
+  0\\
+  0\\
+  \vdots\\
+  0
+\end{bmatrix}
+w^{a} =
+\begin{bmatrix}
+  0\\
+  1\\
+  0\\
+  \vdots\\
+  0
+\end{bmatrix}
+w^{at} =
+\begin{bmatrix}
+  0\\
+  0\\
+  1\\
+  \vdots\\
+  0
+\end{bmatrix}
+\dotsb w^{zero} =
+\begin{bmatrix}
+  0\\
+  0\\
+  0\\
+  \vdots\\
+  1
+\end{bmatrix}
+\end{equation*}
+
+\begin{equation*}
+O = E \times T \times Q
+\end{equation*}
+
+\begin{figure}
+\hypertarget{fig:fine_tuning}{%
+\centering
+\includegraphics[width=0.9\textwidth,height=\textheight]{/tmp/tex2pdf.-74c5a85d7377b6b8/ff6b11961883b44a9c900d6777f57f889636fce7.png}
+\caption{BERT fine tuning. The {[}CLS{]} token is a special symbol added
+in front of every input example, and {[}SEP{]} is a special separator
+token (e.g.~separating questions/answers), from
+\citep{BERT}}\label{fig:fine_tuning}
+}
+\end{figure}
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|l|}
+    \hline
+        Gastos compartidos & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+        Concepto & Luis & Total & Concepto & Mar & Total & ~ \\ \hline
+        Algo que Luis pagó & 327,65 € & Algo que Mar pagó & 82,71 € & ~ & ~ & ~ \\ \hline
+        lidl & 3,88 € & finetwork & 25,00 € & ~ & ~ & ~ \\ \hline
+        verduras & 8,55 € & iberdrola & 27,91 € & ~ & ~ & ~ \\ \hline
+        verduras & 3,55 € & endesa & 15,90 € & ~ & ~ & ~ \\ \hline
+        uber & 33,80 € & mercado san anton & 13,90 € & ~ & ~ & ~ \\ \hline
+        uber & 27,70 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        lidl & 15,45 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        frutas & 17,85 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        primavera & 13,50 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        asia & 33,02 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        cerves & 30,00 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        lild & 10,33 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        corta & 5,90 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        panko & 32,75 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+        lidl & 91,37 € & ~ & ~ & ~ & ~ & ~ \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{lstlisting}[style=pythonCodeStyle, label={p3}, caption={Third query for the meta-model. We ask for associations.}]
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+
+  cout << "Enter an integer: ";
+  cin >> n;
+
+  if ( n % 2 == 0)
+    cout << n << " is even.";
+  else
+    cout << n << " is odd.";
+
+  return 0;
+}
+\end{lstlisting}
+
+\hypertarget{trabajo-relacionado}{%
+\chapter{Trabajo Relacionado}\label{trabajo-relacionado}}
+
+\hypertarget{propuesta}{%
+\chapter{Propuesta}\label{propuesta}}
+
+\hypertarget{experimentos}{%
+\chapter{Experimentos}\label{experimentos}}
+
+\hypertarget{conclusiuxf3on-y-trabajo-futuro}{%
+\chapter{Conclusióon y Trabajo
+Futuro}\label{conclusiuxf3on-y-trabajo-futuro}}
+
+We conclude the thesis by describing what we have achieved so far as
+well as prospective future research areas and advancements we examined
+throughout the execution of this thesis.
+
+\hypertarget{conclusiuxf3n}{%
+\section{Conclusión}\label{conclusiuxf3n}}
+
+\hypertarget{trabajo-futuro}{%
+\section{Trabajo Futuro}\label{trabajo-futuro}}
+
+\newpage
+\newpage
+\appendix
+\renewcommand{\thechapter}{\Alph{chapter}}
+
+\hypertarget{apuxe9ndice-1-tuxedtulo}{%
+\chapter{Apéndice 1: Título}\label{apuxe9ndice-1-tuxedtulo}}
+
+\label{sec:A1}
+
+The following tables contain the keys and elements of the JSONs produced
+from the metamodels in our parsing process. The meta-model is
+represented as a three leveled dictionary with the following elements.
+
+\begin{center}
+\begin{table}[h]
+\begin{tabular}{ | m{7em} | m{15em} | m{7em} | } 
+    \hline
+    \textbf{Key} & \textbf{Value} & \textbf{Type} \\
+    \hline
+    \textbf{'name'} & Name of the metamodel & String \\ 
+    \hline
+    \textbf{'annotations'} & A list of annotations, this is usually empty, but it is intended to be filled with OCL restrictions and other relevant information. & List \\ 
+    \hline
+    \textbf{'classes'} & Class elements of the metamodel. & List of dictionaries \\ 
+    \hline
+    \textbf{'enums'} & A list of enumerates &  List of dictionaries. \\
+    \hline
+\end{tabular}
+\caption{\label{tab:meta} The JSON object is a three level dictionary that contains the following keys (first level)}
+\end{table}
+\end{center}
+
+\hypertarget{tuxedtulo-apuxe9ndice-2}{%
+\chapter{Título apéndice 2}\label{tuxedtulo-apuxe9ndice-2}}
+
+\label{sec:A2}
+
+The technology used in this work has its foundations in the artificial
+neuron model. Right after the neuron model, the perceptron is explained
+along with its learning algorithm.
+
+\footnotesize
+\singlespacing
+\setlength{\parindent}{0in}
+
+\end{document}
+
+[makePDF] Run #1
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tex2pdf.-74c5a85d7377b6b8/input.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/readarray/readarray.sty
+(/usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex))
+readarray: bounds checking OFF
+)) (/usr/share/texlive/texmf-dist/tex/latex/bussproofs/bussproofs.sty
+Proof Tree (bussproofs) style macros. Version 1.1.
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/cases/cases.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (/usr/share/texlive/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+(|extractbb --version))))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+(/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/share/texmf/tex/latex/tipa/t3enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))))
+(/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty)
+
+Package ctable Warning: 
+(ctable)                Transparency disabled: pdfTeX is not running in PDF mod
+e .
+
+) (/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers= Monospaced, Lining'
+(fontspec)                (tnum) not available for font 'LinLibertine_RZI'
+(fontspec)                with script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers= Monospaced, Lining'
+(fontspec)                (tnum) not available for font 'LinLibertine_RZI'
+(fontspec)                with script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LKey.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppxetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/floatpag.sty)
+
+LaTeX Warning: Unused global option(s):
+    [es-ES].
+
+No file input.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 263.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-spanish.trsl)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+[1] [1] [2] [1]
+Overfull \hbox (12.14693pt too wide) in paragraph at lines 332--335
+\TU/LibertinusSerif(0)/m/n/12 (RTI2018-095255-B-I00), and by the R&D programme 
+of Madrid (P2018/TCS-
+[2] [1] [2] [3] [4]
+Capítulo 1.
+
+Package natbib Warning: Citation `mde_in_practice' on page 1 undefined on input
+ line 383.
+
+[1]
+
+Package natbib Warning: Citation `liu2019roberta' on page 2 undefined on input 
+line 406.
+
+
+Package natbib Warning: Citation `towards_dl_archs' on page 2 undefined on inpu
+t line 416.
+
+[2]
+Capítulo 2.
+
+Package natbib Warning: Citation `language_models_sentences' on page 3 undefine
+d on input line 442.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) [3]
+
+LaTeX Warning: Reference `unigram' on page 4 undefined on input line 456.
+
+
+LaTeX Warning: Reference `bigram' on page 4 undefined on input line 468.
+
+[4]
+
+Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
+
+
+Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
+
+
+Overfull \hbox (56.33675pt too wide) in paragraph at lines 552--572
+ [][] 
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6]
+Capítulo 3.
+[7]
+Capítulo 4.
+[8]
+Capítulo 5.
+[9]
+Capítulo 6.
+[10]
+Apéndice A.
+
+Underfull \hbox (badness 2351) in paragraph at lines 640--641
+[]|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
+
+Underfull \hbox (badness 2351) in paragraph at lines 642--643
+[]|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
+
+Overfull \hbox (32.47678pt too wide) in paragraph at lines 632--645
+[][] 
+[11]
+Apéndice B.
+
+Package natbib Warning: There were undefined citations.
+
+[12] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.pdf (21 pages).
+Transcript written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.log.
+
+[makePDF] Run #2
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tex2pdf.-74c5a85d7377b6b8/input.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/readarray/readarray.sty
+(/usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex))
+readarray: bounds checking OFF
+)) (/usr/share/texlive/texmf-dist/tex/latex/bussproofs/bussproofs.sty
+Proof Tree (bussproofs) style macros. Version 1.1.
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/cases/cases.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (/usr/share/texlive/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+(|extractbb --version))))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+(/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/share/texmf/tex/latex/tipa/t3enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))))
+(/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty)
+
+Package ctable Warning: 
+(ctable)                Transparency disabled: pdfTeX is not running in PDF mod
+e .
+
+) (/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers= Monospaced, Lining'
+(fontspec)                (tnum) not available for font 'LinLibertine_RZI'
+(fontspec)                with script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers= Monospaced, Lining'
+(fontspec)                (tnum) not available for font 'LinLibertine_RZI'
+(fontspec)                with script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LKey.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppxetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/floatpag.sty)
+
+LaTeX Warning: Unused global option(s):
+    [es-ES].
+
+(/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 263.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-spanish.trsl)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+[1] [1] [2] [1]
+Overfull \hbox (12.14693pt too wide) in paragraph at lines 332--335
+\TU/LibertinusSerif(0)/m/n/12 (RTI2018-095255-B-I00), and by the R&D programme 
+of Madrid (P2018/TCS-
+[2] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.toc
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)) [1]
+(/tmp/tex2pdf.-74c5a85d7377b6b8/input.lof
+
+Package natbib Warning: Citation `BERT' on page  undefined on input line 4.
+
+) [2] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.lot) [3] [4]
+Capítulo 1.
+
+Package natbib Warning: Citation `mde_in_practice' on page 1 undefined on input
+ line 383.
+
+[1]
+
+Package natbib Warning: Citation `liu2019roberta' on page 2 undefined on input 
+line 406.
+
+
+Package natbib Warning: Citation `towards_dl_archs' on page 2 undefined on inpu
+t line 416.
+
+[2]
+Capítulo 2.
+
+Package natbib Warning: Citation `language_models_sentences' on page 3 undefine
+d on input line 442.
+
+[3] [4]
+
+Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
+
+
+Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
+
+
+Overfull \hbox (56.33675pt too wide) in paragraph at lines 552--572
+ [][] 
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6]
+Capítulo 3.
+[7]
+Capítulo 4.
+[8]
+Capítulo 5.
+[9]
+Capítulo 6.
+[10]
+Apéndice A.
+
+Underfull \hbox (badness 2351) in paragraph at lines 640--641
+[]|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
+
+Underfull \hbox (badness 2351) in paragraph at lines 642--643
+[]|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
+
+Overfull \hbox (32.47678pt too wide) in paragraph at lines 632--645
+[][] 
+[11]
+Apéndice B.
+
+Package natbib Warning: There were undefined citations.
+
+[12] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux) )
+(see the transcript file for additional information)
+Output written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.pdf (21 pages).
+Transcript written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.log.
+
+[makePDF] Run #3
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tex2pdf.-74c5a85d7377b6b8/input.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/readarray/readarray.sty
+(/usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex))
+readarray: bounds checking OFF
+)) (/usr/share/texlive/texmf-dist/tex/latex/bussproofs/bussproofs.sty
+Proof Tree (bussproofs) style macros. Version 1.1.
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/cases/cases.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (/usr/share/texlive/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+(|extractbb --version))))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+(/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/share/texmf/tex/latex/tipa/t3enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))))
+(/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty)
+
+Package ctable Warning: 
+(ctable)                Transparency disabled: pdfTeX is not running in PDF mod
+e .
+
+) (/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers= Monospaced, Lining'
+(fontspec)                (tnum) not available for font 'LinLibertine_RZI'
+(fontspec)                with script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers= Monospaced, Lining'
+(fontspec)                (tnum) not available for font 'LinLibertine_RZI'
+(fontspec)                with script 'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+
+Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
+(fontspec)                available for font 'LinBiolinum_RB' with script
+(fontspec)                'CustomDefault' and language 'Default'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LKey.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppxetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/floatpag.sty)
+
+LaTeX Warning: Unused global option(s):
+    [es-ES].
+
+(/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 263.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-spanish.trsl)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+[1] [1] [2] [1]
+Overfull \hbox (12.14693pt too wide) in paragraph at lines 332--335
+\TU/LibertinusSerif(0)/m/n/12 (RTI2018-095255-B-I00), and by the R&D programme 
+of Madrid (P2018/TCS-
+[2] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.toc
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)) [1]
+(/tmp/tex2pdf.-74c5a85d7377b6b8/input.lof
+
+Package natbib Warning: Citation `BERT' on page  undefined on input line 4.
+
+) [2] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.lot) [3] [4]
+Capítulo 1.
+
+Package natbib Warning: Citation `mde_in_practice' on page 1 undefined on input
+ line 383.
+
+[1]
+
+Package natbib Warning: Citation `liu2019roberta' on page 2 undefined on input 
+line 406.
+
+
+Package natbib Warning: Citation `towards_dl_archs' on page 2 undefined on inpu
+t line 416.
+
+[2]
+Capítulo 2.
+
+Package natbib Warning: Citation `language_models_sentences' on page 3 undefine
+d on input line 442.
+
+[3] [4]
+
+Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
+
+
+Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
+
+
+Overfull \hbox (56.33675pt too wide) in paragraph at lines 552--572
+ [][] 
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6]
+Capítulo 3.
+[7]
+Capítulo 4.
+[8]
+Capítulo 5.
+[9]
+Capítulo 6.
+[10]
+Apéndice A.
+
+Underfull \hbox (badness 2351) in paragraph at lines 640--641
+[]|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
+
+Underfull \hbox (badness 2351) in paragraph at lines 642--643
+[]|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
+
+Overfull \hbox (32.47678pt too wide) in paragraph at lines 632--645
+[][] 
+[11]
+Apéndice B.
+
+Package natbib Warning: There were undefined citations.
+
+[12] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux) )
+(see the transcript file for additional information)
+Output written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.pdf (21 pages).
+Transcript written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.log.
+
