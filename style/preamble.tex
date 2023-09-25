@@ -21,7 +21,7 @@
 \usepackage{titlesec, blindtext, color}
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
- \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
 % % Fonts and typesetting
 \usepackage{fontspec}
@@ -150,3 +150,16 @@
 \usepackage{wrapfig}
 \usepackage[export]{adjustbox}[2011/08/13]
 \usepackage{floatpag}
+
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry spacing
+{\par\normalsize\normalfont
+  \setlength{\parindent}{0pt}
+  \setlength{\parskip}{\baselineskip}
+  \setlength{\hangindent}{2em}
+  \ignorespaces}
+{\par}
+
+% \newcommand{\CSLLeftMargin}[1]{}
+% \newcommand{\CSLRightInline}[1]{}
+% \newcommand{\CSLRightSkip}[1]{}
+

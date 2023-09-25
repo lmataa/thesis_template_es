@@ -6,6 +6,8 @@ $else$
 \usepackage{lmodern}
 $endif$
 
+\usepackage{graphicx}
+
 % Overwrite \begin{figure}[htbp] with \begin{figure}[H]
 \usepackage{float}
 \let\origfigure=\figure
@@ -87,6 +89,14 @@ $endif$
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
+$if(lang)$
+\ifxetex
+  \usepackage{polyglossia}
+  \setmainlanguage{spanish}
+\else
+  \usepackage[$lang$]{babel}
+\fi
+$endif$
 $if(natbib)$
 \usepackage{natbib}
 \bibliographystyle{unsrt}
@@ -154,23 +164,6 @@ $endif$
 $if(verbatim-in-note)$
 \VerbatimFootnotes % allows verbatim text in footnotes
 $endif$
-$if(lang)$
-\ifxetex
-  \usepackage{polyglossia}
-  \setmainlanguage{spanish}
-\else
-  \usepackage[$lang$]{babel}
-\fi
-$endif$
-
-$if(csl-refs)$
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newenvironment{cslreferences}%
-  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
-  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
-  {\par}
-$endif$
 
 $if(title)$
 \title{$title$$if(subtitle)$\\\vspace{0.5em}{\large $subtitle$}$endif$}
@@ -212,25 +205,13 @@ $if(lof)$
 $endif$
 $body$
 
-$if(natbib)$
-$if(biblio-files)$
-$if(biblio-title)$
-$if(book-class)$
-\renewcommand\bibname{$biblio-title$}
-$else$
-\renewcommand\refname{$biblio-title$}
+$if(csl-refs)$
+\begin{CSLReferences}
+  $if(csl-hanging-indent)$[hang,indent=$csl-hanging-indent$]$endif$
+  $if(csl-entry-spacing)$[entryspacing=$csl-entry-spacing$]$endif$
+  $if(csl-second-field-align)$[second-field-align=true]$endif$
+  %$csl-refs$
+\end{CSLReferences}
 $endif$
-$endif$
-\bibliography{$biblio-files$}
 
-$endif$
-$endif$
-$if(biblatex)$
-\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
-
-$endif$
-$for(include-after)$
-$include-after$
-
-$endfor$
 \end{document}

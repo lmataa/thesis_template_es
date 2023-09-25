@@ -42,9 +42,9 @@ pdf:
 	-V fontsize=12pt \
 	-V papersize=a4paper \
 	-V documentclass=report \
-	-V lang=es-ES \
+	-V lang=spanish \
 	--pdf-engine=xelatex \
-	--verbose --natbib
+	--verbose
 
 tex:
 	pandoc "$(INPUTDIR)"/*.md \

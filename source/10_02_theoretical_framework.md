@@ -6,6 +6,7 @@ First, we describe broadly MDE and its role in the development of software. Seco
 
 ## Model Driven Engineering
 
+Ejemoplom de cita [@PerceptronProof] [@Shi2015]
 
 ### Language Models
 
@@ -89,7 +90,7 @@ O = E \times T \times Q
 \end{equation*}
 
 
-![BERT fine tuning. The [CLS] token is a special symbol added in front of every input example, and [SEP] is a special separator token (e.g. separating questions/answers), from [@BERT]](./res/bert_fine_tuning.png){#fig:fine_tuning width=90%}
+![BERT fine tuning. The [CLS] token is a special symbol added in front of every input example, and [SEP] is a special separator token (e.g. separating questions/answers), from referebnce](./res/bert_fine_tuning.png){#fig:fine_tuning width=90%}
 
 
 \begin{table}[!ht]

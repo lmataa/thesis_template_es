@@ -7,8 +7,12 @@
 [INFO] Running filter pandoc-shortcaption
 [INFO] Completed filter pandoc-shortcaption in 2 ms
 [INFO] Running filter pandoc-xnos
-[INFO] Completed filter pandoc-xnos in 4 ms
-[INFO] Extracting /tmp/tex2pdf.-74c5a85d7377b6b8/ff6b11961883b44a9c900d6777f57f889636fce7.png...
+[INFO] Completed filter pandoc-xnos in 1 ms
+[WARNING] Citeproc: citation language_models_sentences not found
+[WARNING] Citeproc: citation liu2019roberta not found
+[WARNING] Citeproc: citation mde_in_practice not found
+[WARNING] Citeproc: citation towards_dl_archs not found
+[INFO] Extracting /tmp/tex2pdf.-3569151ed5db51c3/ff6b11961883b44a9c900d6777f57f889636fce7.png...
 [INFO] Not rendering RawBlock (Format "html") "<!-- ---\ntitle: Towards Deep Learning Architectures for Software Models\nsubtitle: An Initial Exploration\nauthor:\n  - Luis Mata Aguilar\n  - Juan de Lara Jaramillo\n  - Esther Guerra\ndate: \\today\ntitlepage: false\n... -->"
 [INFO] Not rendering RawBlock (Format "html") "<!-- This page is for an official declaration. -->"
 [INFO] Not rendering RawBlock (Format "html") "<!-- This is the abstract -->"
@@ -22,14 +26,16 @@
 [INFO] Not rendering RawBlock (Format "html") "<!-- EXAMPLE OF USAGE -->"
 [INFO] Not rendering RawBlock (Format "html") "<!-- REPRESENTATIONS -->"
 [INFO] Not rendering RawBlock (Format "html") "<!-- \nDo not edit this page.\n\nReferences are automatically generated from the BibTex file (References.bib)\n\n...which you should create using your reference manager.\n-->"
+[WARNING] Invalid 'lang' value 'spanish'.
+  Use an IETF language tag like 'en-US'.
 [makePDF] temp dir:
-/tmp/tex2pdf.-74c5a85d7377b6b8
+/tmp/tex2pdf.-3569151ed5db51c3
 [makePDF] Command line:
-xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/tex2pdf.-74c5a85d7377b6b8" "/tmp/tex2pdf.-74c5a85d7377b6b8/input.tex"
+xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/tex2pdf.-3569151ed5db51c3" "/tmp/tex2pdf.-3569151ed5db51c3/input.tex"
 
 [makePDF] Environment:
-("TEXINPUTS","/tmp/tex2pdf.-74c5a85d7377b6b8:")
-("TEXMFOUTPUT","/tmp/tex2pdf.-74c5a85d7377b6b8")
+("TEXINPUTS","/tmp/tex2pdf.-3569151ed5db51c3:")
+("TEXMFOUTPUT","/tmp/tex2pdf.-3569151ed5db51c3")
 ("LESSOPEN","| /usr/bin/lesspipe %s")
 ("CONDA_PROMPT_MODIFIER","(base) ")
 ("USER","oekk")
@@ -39,7 +45,7 @@ xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/
 ("CONDA_SHLVL","1")
 ("HOME","/home/oekk")
 ("NVM_BIN","/home/oekk/.nvm/versions/node/v18.17.1/bin")
-("VSCODE_IPC_HOOK_CLI","/mnt/wslg/runtime-dir/vscode-ipc-e0a4cf0b-cace-4c3a-b513-5d74bf9629fa.sock")
+("VSCODE_IPC_HOOK_CLI","/mnt/wslg/runtime-dir/vscode-ipc-2e523a89-e44c-401d-bfb3-fc27dd1556c4.sock")
 ("TERM_PROGRAM_VERSION","1.82.2")
 ("NVM_INC","/home/oekk/.nvm/versions/node/v18.17.1/include/node")
 ("VSCODE_GIT_ASKPASS_MAIN","/home/oekk/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js")
@@ -72,7 +78,7 @@ xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/
 ("LESSCLOSE","/usr/bin/lesspipe %s %s")
 ("CONDA_DEFAULT_ENV","base")
 ("VSCODE_GIT_ASKPASS_EXTRA_ARGS","")
-("PWD","/home/oekk/Git/thesis-template copy")
+("PWD","/home/oekk/Git/thesis_template_es")
 ("NVM_CD_FLAGS","")
 ("CONDA_EXE","/home/oekk/miniconda3/bin/conda")
 ("MFLAGS","")
@@ -82,9 +88,11 @@ xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/
 ("WSLENV","VSCODE_WSL_EXT_LOCATION/up")
 
 [makePDF] Source:
-\documentclass[12pt,es-ES,a4paper,]{report}
+\documentclass[12pt,spanish,a4paper,]{report}
 
 \usepackage{lmodern}
+
+\usepackage{graphicx}
 
 % Overwrite \begin{figure}[htbp] with \begin{figure}[H]
 \usepackage{float}
@@ -149,9 +157,12 @@ xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/
 \usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage{natbib}
-\bibliographystyle{unsrt}
-\bibliographystyle{plainnat}
+\ifxetex
+  \usepackage{polyglossia}
+  \setmainlanguage{spanish}
+\else
+  \usepackage[spanish]{babel}
+\fi
 
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -182,13 +193,6 @@ xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
 \setlength{\emergencystretch}{1em}  % prevent overfull lines
 \setcounter{secnumdepth}{5}
-\ifxetex
-  \usepackage{polyglossia}
-  \setmainlanguage{spanish}
-\else
-  \usepackage[es-ES]{babel}
-\fi
-
 
 \date{\today}
 % Table of contents formatting
@@ -214,7 +218,7 @@ xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/
 \usepackage{titlesec, blindtext, color}
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
- \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
 % % Fonts and typesetting
 \usepackage{fontspec}
@@ -344,6 +348,19 @@ xelatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/
 \usepackage[export]{adjustbox}[2011/08/13]
 \usepackage{floatpag}
 
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry spacing
+{\par\normalsize\normalfont
+  \setlength{\parindent}{0pt}
+  \setlength{\parskip}{\baselineskip}
+  \setlength{\hangindent}{2em}
+  \ignorespaces}
+{\par}
+
+% \newcommand{\CSLLeftMargin}[1]{}
+% \newcommand{\CSLRightInline}[1]{}
+% \newcommand{\CSLRightSkip}[1]{}
+
+
 \begin{document}
 
 \begin{titlepage}
@@ -464,12 +481,13 @@ here is a quick outline of the chapters of this thesis.
 
 Model Driven Engineering (MDE) speeds up the process of making
 high-quality software and keeps people from having to write the same
-solutions over and over \citep{mde_in_practice}. It is a useful
-technique for software development since models facilitate the
-communication between requirements and implementation phases of the
-software lifecycle. Simultaneously conveying a more complete picture,
-models may also be used to reach agreement on a certain point of view or
-idea.
+solutions over and over
+(\protect\hyperlink{ref-mde_in_practice}{\textbf{mde\_in\_practice?}}).
+It is a useful technique for software development since models
+facilitate the communication between requirements and implementation
+phases of the software lifecycle. Simultaneously conveying a more
+complete picture, models may also be used to reach agreement on a
+certain point of view or idea.
 
 Model Driven Engineering and Machine Learning (ML-MDE) refers to the
 application of ML (Machine Learning) techniques to MDE issues. As stated
@@ -487,18 +505,19 @@ lower level representation, such as text.
 \hypertarget{objetivos}{%
 \section{Objetivos}\label{objetivos}}
 
-We demonstrate the use of RoBERTa\citep{liu2019roberta}, a
-transformer-based architecture to support the construction of models by
-means of a recommender system able to predict a masked element of choice
-in a textual representation of the (meta-)model.
+We demonstrate the use of
+RoBERTa(\protect\hyperlink{ref-liu2019roberta}{\textbf{liu2019roberta?}}),
+a transformer-based architecture to support the construction of models
+by means of a recommender system able to predict a masked element of
+choice in a textual representation of the (meta-)model.
 
 \hypertarget{contribuciones}{%
 \section{Contribuciones}\label{contribuciones}}
 
 This dissertation has produced the publication of a short work titled
 “Towards a Deep Learning Architecture for Software Models”
-\citep{towards_dl_archs}, in which the beginning steps of this
-investigation are explored.
+(\protect\hyperlink{ref-towards_dl_archs}{\textbf{towards\_dl\_archs?}}),
+in which the beginning steps of this investigation are explored.
 
 \hypertarget{marco-teuxf3rico}{%
 \chapter{Marco Teórico}\label{marco-teuxf3rico}}
@@ -516,6 +535,9 @@ usable embeddings from text corpora.
 \hypertarget{model-driven-engineering}{%
 \section{Model Driven Engineering}\label{model-driven-engineering}}
 
+Ejemoplom de cita (\protect\hyperlink{ref-PerceptronProof}{Weinberger,
+2018}) (\protect\hyperlink{ref-Shi2015}{Shi et al., 2015})
+
 \hypertarget{language-models}{%
 \subsection{Language Models}\label{language-models}}
 
@@ -523,10 +545,11 @@ Models that assign probabilities to sequences of words are called
 language models or LMs. Given a sequence of tokens, they are usually
 trained to compute the probability of the sequence given its history,
 i.e.~the next word in a sequence of words
-\citep{language_models_sentences}. They attempt to model understanding
-of a domain language in a corpus of text, and sometimes they can act as
-a knowledge base. LMs enable applications such as text summarization,
-text classification, and information retrieval among many others.
+(\protect\hyperlink{ref-language_models_sentences}{\textbf{language\_models\_sentences?}}).
+They attempt to model understanding of a domain language in a corpus of
+text, and sometimes they can act as a knowledge base. LMs enable
+applications such as text summarization, text classification, and
+information retrieval among many others.
 
 Language modeling is usually framed as unsupervised probability
 distribution over each token within a sequence, conditioned on the
@@ -623,11 +646,11 @@ O = E \times T \times Q
 \begin{figure}
 \hypertarget{fig:fine_tuning}{%
 \centering
-\includegraphics[width=0.9\textwidth,height=\textheight]{/tmp/tex2pdf.-74c5a85d7377b6b8/ff6b11961883b44a9c900d6777f57f889636fce7.png}
+\includegraphics[width=0.9\textwidth,height=\textheight]{/tmp/tex2pdf.-3569151ed5db51c3/ff6b11961883b44a9c900d6777f57f889636fce7.png}
 \caption{BERT fine tuning. The {[}CLS{]} token is a special symbol added
 in front of every input example, and {[}SEP{]} is a special separator
 token (e.g.~separating questions/answers), from
-\citep{BERT}}\label{fig:fine_tuning}
+referebnce}\label{fig:fine_tuning}
 }
 \end{figure}
 
@@ -743,24 +766,53 @@ along with its learning algorithm.
 \singlespacing
 \setlength{\parindent}{0in}
 
+\hypertarget{bibliografuxeda}{%
+\chapter*{Bibliografía}\label{bibliografuxeda}}
+\addcontentsline{toc}{chapter}{Bibliografía}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-Shi2015}{}}%
+Shi, X., Chen, Z., Wang, H., Yeung, D.-Y., Wong, W., \& Woo, W. (2015).
+\emph{Convolutional LSTM network: A machine learning approach for
+precipitation nowcasting}. \url{https://arxiv.org/abs/1506.04214}
+
+\leavevmode\vadjust pre{\hypertarget{ref-PerceptronProof}{}}%
+Weinberger, K. (2018). \emph{Lecture 3: The perceptron}.
+\url{https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote03.html}
+
+\end{CSLReferences}
+
+\begin{CSLReferences}
+  
+  
+  
+  %true
+\end{CSLReferences}
+
 \end{document}
 
 [makePDF] Run #1
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex)
  restricted \write18 enabled.
 entering extended mode
-(/tmp/tex2pdf.-74c5a85d7377b6b8/input.tex
+(/tmp/tex2pdf.-3569151ed5db51c3/input.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
 (/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
@@ -819,12 +871,7 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
 (/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
 (/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))))
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty))
 (/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 (/usr/share/texmf/tex/latex/tipa/t3enc.def))
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
@@ -832,7 +879,23 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -861,26 +924,9 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 95.
+(hyperref)                setting the option has no effect on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
-(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
-
-LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
-(hooks)              Use hook 'file/tracklang.sty/after' instead.
-
-
-LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
-(hooks)              Use hook 'package/bidi/after' instead.
-
-
-LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
-(hooks)              Use hook 'package/luabidi/after' instead.
-
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/wallpaper/wallpaper.sty
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -978,10 +1024,6 @@ LaTeX Warning: Command \underline  has changed.
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/sttools/floatpag.sty)
-
-LaTeX Warning: Unused global option(s):
-    [es-ES].
-
 No file input.aux.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
@@ -990,7 +1032,7 @@ No file input.aux.
 *** XeTeX expects the source to be in UTF8 encoding
 *** some features of other encodings may conflict, resulting in poor output.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 263.
+Package microtype Warning: Unable to apply patch `footnote' on input line 274.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
@@ -1004,30 +1046,18 @@ nary-spanish.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 [1] [1] [2] [1]
-Overfull \hbox (12.14693pt too wide) in paragraph at lines 332--335
+Overfull \hbox (12.14693pt too wide) in paragraph at lines 343--346
 \TU/LibertinusSerif(0)/m/n/12 (RTI2018-095255-B-I00), and by the R&D programme 
 of Madrid (P2018/TCS-
 [2] [1] [2] [3] [4]
 Capítulo 1.
-
-Package natbib Warning: Citation `mde_in_practice' on page 1 undefined on input
- line 383.
-
 [1]
-
-Package natbib Warning: Citation `liu2019roberta' on page 2 undefined on input 
-line 406.
-
-
-Package natbib Warning: Citation `towards_dl_archs' on page 2 undefined on inpu
-t line 416.
-
+Overfull \hbox (15.24762pt too wide) in paragraph at lines 418--423
+[]\TU/LibertinusSerif(0)/m/n/12 We demonstrate the use of RoBERTa([]\TU/Liberti
+nusSerif(0)/b/n/12 liu2019roberta?[]\TU/LibertinusSerif(0)/m/n/12 ), a transfor
+mer-
 [2]
 Capítulo 2.
-
-Package natbib Warning: Citation `language_models_sentences' on page 3 undefine
-d on input line 442.
-
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg)
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
@@ -1038,20 +1068,13 @@ d on input line 442.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) [3]
 
-LaTeX Warning: Reference `unigram' on page 4 undefined on input line 456.
+LaTeX Warning: Reference `unigram' on page 4 undefined on input line 473.
 
 
-LaTeX Warning: Reference `bigram' on page 4 undefined on input line 468.
+LaTeX Warning: Reference `bigram' on page 4 undefined on input line 485.
 
 [4]
-
-Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
-
-
-Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
-
-
-Overfull \hbox (56.33675pt too wide) in paragraph at lines 552--572
+Overfull \hbox (56.33675pt too wide) in paragraph at lines 569--589
  [][] 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
 
@@ -1068,20 +1091,17 @@ Capítulo 6.
 [10]
 Apéndice A.
 
-Underfull \hbox (badness 2351) in paragraph at lines 640--641
+Underfull \hbox (badness 2351) in paragraph at lines 657--658
 []|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
 
-Underfull \hbox (badness 2351) in paragraph at lines 642--643
+Underfull \hbox (badness 2351) in paragraph at lines 659--660
 []|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
 
-Overfull \hbox (32.47678pt too wide) in paragraph at lines 632--645
+Overfull \hbox (32.47678pt too wide) in paragraph at lines 649--662
 [][] 
 [11]
 Apéndice B.
-
-Package natbib Warning: There were undefined citations.
-
-[12] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux)
+[12] [13] (/tmp/tex2pdf.-3569151ed5db51c3/input.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1090,25 +1110,30 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (see the transcript file for additional information)
-Output written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.pdf (21 pages).
-Transcript written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.log.
+Output written on /tmp/tex2pdf.-3569151ed5db51c3/input.pdf (22 pages).
+Transcript written on /tmp/tex2pdf.-3569151ed5db51c3/input.log.
 
 [makePDF] Run #2
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex)
  restricted \write18 enabled.
 entering extended mode
-(/tmp/tex2pdf.-74c5a85d7377b6b8/input.tex
+(/tmp/tex2pdf.-3569151ed5db51c3/input.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
 (/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
@@ -1167,12 +1192,7 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
 (/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
 (/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))))
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty))
 (/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 (/usr/share/texmf/tex/latex/tipa/t3enc.def))
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
@@ -1180,7 +1200,23 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -1209,26 +1245,9 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 95.
+(hyperref)                setting the option has no effect on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
-(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
-
-LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
-(hooks)              Use hook 'file/tracklang.sty/after' instead.
-
-
-LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
-(hooks)              Use hook 'package/bidi/after' instead.
-
-
-LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
-(hooks)              Use hook 'package/luabidi/after' instead.
-
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/wallpaper/wallpaper.sty
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -1326,11 +1345,7 @@ LaTeX Warning: Command \underline  has changed.
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/sttools/floatpag.sty)
-
-LaTeX Warning: Unused global option(s):
-    [es-ES].
-
-(/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux)
+(/tmp/tex2pdf.-3569151ed5db51c3/input.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
@@ -1338,7 +1353,7 @@ LaTeX Warning: Unused global option(s):
 *** XeTeX expects the source to be in UTF8 encoding
 *** some features of other encodings may conflict, resulting in poor output.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 263.
+Package microtype Warning: Unable to apply patch `footnote' on input line 274.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
@@ -1348,10 +1363,10 @@ nary-spanish.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 [1] [1] [2] [1]
-Overfull \hbox (12.14693pt too wide) in paragraph at lines 332--335
+Overfull \hbox (12.14693pt too wide) in paragraph at lines 343--346
 \TU/LibertinusSerif(0)/m/n/12 (RTI2018-095255-B-I00), and by the R&D programme 
 of Madrid (P2018/TCS-
-[2] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.toc
+[2] (/tmp/tex2pdf.-3569151ed5db51c3/input.toc
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg)
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
@@ -1361,40 +1376,18 @@ of Madrid (P2018/TCS-
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)) [1]
-(/tmp/tex2pdf.-74c5a85d7377b6b8/input.lof
-
-Package natbib Warning: Citation `BERT' on page  undefined on input line 4.
-
-) [2] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.lot) [3] [4]
+(/tmp/tex2pdf.-3569151ed5db51c3/input.lof) [2]
+(/tmp/tex2pdf.-3569151ed5db51c3/input.lot) [3] [4]
 Capítulo 1.
-
-Package natbib Warning: Citation `mde_in_practice' on page 1 undefined on input
- line 383.
-
 [1]
-
-Package natbib Warning: Citation `liu2019roberta' on page 2 undefined on input 
-line 406.
-
-
-Package natbib Warning: Citation `towards_dl_archs' on page 2 undefined on inpu
-t line 416.
-
+Overfull \hbox (15.24762pt too wide) in paragraph at lines 418--423
+[]\TU/LibertinusSerif(0)/m/n/12 We demonstrate the use of RoBERTa([]\TU/Liberti
+nusSerif(0)/b/n/12 liu2019roberta?[]\TU/LibertinusSerif(0)/m/n/12 ), a transfor
+mer-
 [2]
 Capítulo 2.
-
-Package natbib Warning: Citation `language_models_sentences' on page 3 undefine
-d on input line 442.
-
 [3] [4]
-
-Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
-
-
-Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
-
-
-Overfull \hbox (56.33675pt too wide) in paragraph at lines 552--572
+Overfull \hbox (56.33675pt too wide) in paragraph at lines 569--589
  [][] 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
 
@@ -1411,40 +1404,42 @@ Capítulo 6.
 [10]
 Apéndice A.
 
-Underfull \hbox (badness 2351) in paragraph at lines 640--641
+Underfull \hbox (badness 2351) in paragraph at lines 657--658
 []|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
 
-Underfull \hbox (badness 2351) in paragraph at lines 642--643
+Underfull \hbox (badness 2351) in paragraph at lines 659--660
 []|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
 
-Overfull \hbox (32.47678pt too wide) in paragraph at lines 632--645
+Overfull \hbox (32.47678pt too wide) in paragraph at lines 649--662
 [][] 
 [11]
 Apéndice B.
-
-Package natbib Warning: There were undefined citations.
-
-[12] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux) )
+[12] [13] (/tmp/tex2pdf.-3569151ed5db51c3/input.aux) )
 (see the transcript file for additional information)
-Output written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.pdf (21 pages).
-Transcript written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.log.
+Output written on /tmp/tex2pdf.-3569151ed5db51c3/input.pdf (22 pages).
+Transcript written on /tmp/tex2pdf.-3569151ed5db51c3/input.log.
 
 [makePDF] Run #3
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex)
  restricted \write18 enabled.
 entering extended mode
-(/tmp/tex2pdf.-74c5a85d7377b6b8/input.tex
+(/tmp/tex2pdf.-3569151ed5db51c3/input.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
 (/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
@@ -1503,12 +1498,7 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
 (/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
 (/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))))
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty))
 (/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 (/usr/share/texmf/tex/latex/tipa/t3enc.def))
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
@@ -1516,7 +1506,23 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -1545,26 +1551,9 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 95.
+(hyperref)                setting the option has no effect on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
-(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
-
-LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
-(hooks)              Use hook 'file/tracklang.sty/after' instead.
-
-
-LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
-(hooks)              Use hook 'package/bidi/after' instead.
-
-
-LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
-(hooks)              Use hook 'package/luabidi/after' instead.
-
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-spanish.ldf)
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/wallpaper/wallpaper.sty
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -1662,11 +1651,7 @@ LaTeX Warning: Command \underline  has changed.
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/sttools/floatpag.sty)
-
-LaTeX Warning: Unused global option(s):
-    [es-ES].
-
-(/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux)
+(/tmp/tex2pdf.-3569151ed5db51c3/input.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
@@ -1674,7 +1659,7 @@ LaTeX Warning: Unused global option(s):
 *** XeTeX expects the source to be in UTF8 encoding
 *** some features of other encodings may conflict, resulting in poor output.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 263.
+Package microtype Warning: Unable to apply patch `footnote' on input line 274.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
@@ -1684,10 +1669,10 @@ nary-spanish.trsl)
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 [1] [1] [2] [1]
-Overfull \hbox (12.14693pt too wide) in paragraph at lines 332--335
+Overfull \hbox (12.14693pt too wide) in paragraph at lines 343--346
 \TU/LibertinusSerif(0)/m/n/12 (RTI2018-095255-B-I00), and by the R&D programme 
 of Madrid (P2018/TCS-
-[2] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.toc
+[2] (/tmp/tex2pdf.-3569151ed5db51c3/input.toc
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg)
 (/usr/share/texmf/tex/latex/lm/omllmm.fd)
@@ -1697,40 +1682,18 @@ of Madrid (P2018/TCS-
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)) [1]
-(/tmp/tex2pdf.-74c5a85d7377b6b8/input.lof
-
-Package natbib Warning: Citation `BERT' on page  undefined on input line 4.
-
-) [2] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.lot) [3] [4]
+(/tmp/tex2pdf.-3569151ed5db51c3/input.lof) [2]
+(/tmp/tex2pdf.-3569151ed5db51c3/input.lot) [3] [4]
 Capítulo 1.
-
-Package natbib Warning: Citation `mde_in_practice' on page 1 undefined on input
- line 383.
-
 [1]
-
-Package natbib Warning: Citation `liu2019roberta' on page 2 undefined on input 
-line 406.
-
-
-Package natbib Warning: Citation `towards_dl_archs' on page 2 undefined on inpu
-t line 416.
-
+Overfull \hbox (15.24762pt too wide) in paragraph at lines 418--423
+[]\TU/LibertinusSerif(0)/m/n/12 We demonstrate the use of RoBERTa([]\TU/Liberti
+nusSerif(0)/b/n/12 liu2019roberta?[]\TU/LibertinusSerif(0)/m/n/12 ), a transfor
+mer-
 [2]
 Capítulo 2.
-
-Package natbib Warning: Citation `language_models_sentences' on page 3 undefine
-d on input line 442.
-
 [3] [4]
-
-Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
-
-
-Package natbib Warning: Citation `BERT' on page 5 undefined on input line 547.
-
-
-Overfull \hbox (56.33675pt too wide) in paragraph at lines 552--572
+Overfull \hbox (56.33675pt too wide) in paragraph at lines 569--589
  [][] 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
 
@@ -1747,21 +1710,18 @@ Capítulo 6.
 [10]
 Apéndice A.
 
-Underfull \hbox (badness 2351) in paragraph at lines 640--641
+Underfull \hbox (badness 2351) in paragraph at lines 657--658
 []|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
 
-Underfull \hbox (badness 2351) in paragraph at lines 642--643
+Underfull \hbox (badness 2351) in paragraph at lines 659--660
 []|\TU/LibertinusSerif(0)/m/n/12 List of dictiona-
 
-Overfull \hbox (32.47678pt too wide) in paragraph at lines 632--645
+Overfull \hbox (32.47678pt too wide) in paragraph at lines 649--662
 [][] 
 [11]
 Apéndice B.
-
-Package natbib Warning: There were undefined citations.
-
-[12] (/tmp/tex2pdf.-74c5a85d7377b6b8/input.aux) )
+[12] [13] (/tmp/tex2pdf.-3569151ed5db51c3/input.aux) )
 (see the transcript file for additional information)
-Output written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.pdf (21 pages).
-Transcript written on /tmp/tex2pdf.-74c5a85d7377b6b8/input.log.
+Output written on /tmp/tex2pdf.-3569151ed5db51c3/input.pdf (22 pages).
+Transcript written on /tmp/tex2pdf.-3569151ed5db51c3/input.log.
 
